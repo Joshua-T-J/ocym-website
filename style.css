@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Titillium+Web:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.top{
+    padding: 20px 10px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-ocym{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.nav-ocym li:hover{
+    transform: scale(1.05);
+    transition-property: all;
+    transition-duration: 0.2s;
+    box-shadow: 4px 4px 8px lightslategray;
+    border-radius: 5px;
+    background: #f4c73fce;
+    color: #fff;
+    padding: 0px 3px 0px 3px;
+}
+
+li a:hover{
+    color: #fff;
+}
+
+.main{
+    padding-top: 150px;
+    padding-bottom: 50px;
+    color: #fff; 
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgb(124, 98, 20) 90% );
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#logo{
+    margin-top: 20px;
+}
+
+.description{
+    margin-top: 20px;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.cards{
+    margin-top: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.history{
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.history-div{
+    color: rgb(51, 51, 51); 
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgb(255, 234, 170) 90% );
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.all-icons a:hover{
+    transform: scale(1.2);
+    transition-property: all;
+    transition-duration: 0.3s;
+}

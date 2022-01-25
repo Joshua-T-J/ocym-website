@@ -1,0 +1,19 @@
+#contact{
+    padding-top: 130px;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgb(124, 98, 20) 90% );
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 5rem;
+}
+
+#contact-h1{
+    color: white;
+}
+
+.address{
+    padding-top: 4rem;
+}
+
+.location{
+    padding-top: 5rem;
+}
