@@ -25,16 +25,13 @@ body{
     transform: scale(1.05);
     transition-property: all;
     transition-duration: 0.2s;
-    box-shadow: 4px 4px 8px lightslategray;
+    /* box-shadow: 4px 4px 8px lightslategray; */
     border-radius: 5px;
     background: #f4c73fce;
     color: #fff;
     padding: 0px 3px 0px 3px;
 }
 
-li a:hover{
-    color: #fff;
-}
 
 .main{
     padding-top: 150px;
@@ -83,4 +80,22 @@ body::-webkit-scrollbar{
     transform: scale(1.2);
     transition-property: all;
     transition-duration: 0.3s;
+}
+
+footer{
+    background-color: #5a2919;
+    color: #fff;
+}
+
+.links{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background: url(https://ocymonline.org/images/bullet.png) no-repeat left;
+    padding-left: 20px;
+    line-height: 26px;
+}
+
+.links:hover{
+    color: #fff;
+    text-decoration: underline;
 }
