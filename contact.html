@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="style/contact.css">
+  <!-- form ajax lib -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<!-- bootstrap style -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -68,7 +70,7 @@
                   <div class="card mt-2 p-4 ">
                       <div class="card-body">
                           
-                              <form id="contact-form" role="form" action="">
+                              <form id="contact-form" action="">
                                   <div class="controls">
                                       <div class="row">
                                           <div class="col-md-6">
@@ -173,5 +175,28 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+
+  <!-- contact form script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script>
+    $("#contact-form").submit((e)=>{
+        e.preventDefault()
+        $.ajax({
+            url:"https://script.google.com/macros/s/AKfycbyLplRkIxm9xlp0gZxCsqK1CkOWtEeVsOrVTkjuPQW6rfGl-x63L6OiS6qDI_V5avUq/exec",
+            data:$("#contact-form").serialize(),
+            method:"post",
+            success:function (response){
+                alert("Message Send Successfully! Thankyou For Your Feedback")
+                window.location.reload()
+                //window.location.href="https://google.com"
+            },
+            error:function (err){
+                alert("Something Error")
+
+            }
+        })
+    })
+  </script>
 </body>
 </html>
