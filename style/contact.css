@@ -21,11 +21,18 @@
 }
 
 .address{
+    margin-top: 1rem;
     padding-top: 4rem;
     color: rgb(95, 95, 95);
+    background-color: rgba(255, 255, 255, 0.438);
+    border-radius: 10px;
 }
 
 .location{
     padding-top: 5rem;
     padding-bottom: 5rem;
+}
+.rech-us{
+    padding: 20px 2px;
+    border-bottom: 1px solid #F8C86C;
 }
