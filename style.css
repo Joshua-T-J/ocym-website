@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Titillium+Web:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
 
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .top{
@@ -34,7 +34,7 @@ body{
 
 
 .main{
-    padding-top: 150px;
+    padding-top: 10rem;
     padding-bottom: 50px;
     color: #fff; 
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgb(124, 98, 20) 90% );
