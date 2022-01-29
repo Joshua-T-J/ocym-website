@@ -73,7 +73,7 @@ body::-webkit-scrollbar{
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgb(255, 234, 170) 90% );
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 50px;
+    padding-top: 6.5rem;
     padding-bottom: 50px;
     
 }
